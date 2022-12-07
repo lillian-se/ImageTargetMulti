@@ -49,7 +49,7 @@ async function init() {
   const radius = 0.2;
   const height = 1;
   const coneGeometry = new THREE.ConeGeometry(radius, height, 32);
-  geometry.translate(0, height / 2, 0); // important. push mesh up on y
+  coneGeometry.translate(0, height / 2, 0); // important. push mesh up on y
   const coneMaterial = new THREE.MeshPhongMaterial({
     color: 0xffffff * Math.random(),
     shininess: 6,
@@ -63,7 +63,7 @@ async function init() {
   scene.add(mesh);
   // Second mesh
   const cubeGeometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
-  geometry.translate(0, height / 2, 0); // important. push mesh up on y
+  cubeGeometry.translate(0, height / 2, 0); // important. push mesh up on y
   const cubeMaterial = new THREE.MeshPhongMaterial({
     color: 0xffffff * Math.random(),
     shininess: 6,
