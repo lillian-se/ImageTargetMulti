@@ -7,7 +7,7 @@ import { ARButton } from 'https://cdn.jsdelivr.net/npm/three@0.146.0/examples/js
     
 setupMobileDebug();
 let camera, scene, renderer;
-let mesh;
+let mesh, mesh2;
 let image;
 
 init();
