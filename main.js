@@ -5,7 +5,7 @@ import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.146.0/build/three.m
 import { ARButton } from 'https://cdn.jsdelivr.net/npm/three@0.146.0/examples/jsm/webxr/ARButton.js';
 
     
-setupMobileDebug();
+//setupMobileDebug();
 let camera, scene, renderer;
 let mesh, mesh2;
 let image;
